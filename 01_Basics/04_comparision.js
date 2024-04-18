@@ -24,4 +24,4 @@ console.log(null == 0); //we will get false because null is not converted to 0 i
 
 //strict check (===) check both the datatype  and the value.
 
-console.log("2" === 2); // we wll get false because datatype is different.
+console.log("2" === 2); // we wll get false because datatype is different
