@@ -78,3 +78,32 @@ let stringNumber = String(someNumber);
 
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ############### Operations ########### //
+
+let value = 3;
+
+let negValue = -value;
+
+// console.log(negValue);
+
+//concat
+let str1 = "Hello ";
+
+let str2 = "world";
+
+let str3 = str1 + str2;
+
+console.log(str3);
+
+//tricky operations.
+
+console.log("1" + 2); // if string is first  then js convert both number into string.
+console.log("1" + 2 + 3); //it also convert all the value into string.
+
+console.log(1 + 2 + "3"); //here number is first then js will add first two value and concat the third value.
+
+//Assignmnet operations
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2;
