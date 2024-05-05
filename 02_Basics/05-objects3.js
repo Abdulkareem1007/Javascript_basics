@@ -6,7 +6,7 @@ const course = {
   courseInstructor: "Hitesh",
 };
 
-const { courseInstructor } = course; // de structuring
+const { courseInstructor } = course; // de structuring. extracting courseInstructor from course object.
 
 console.log(courseInstructor); // after de structring we can the property directly without using (.) operator.
 
@@ -15,3 +15,11 @@ console.log(courseInstructor); // after de structring we can the property direct
 const { courseInstructor: Instructor } = course;
 
 console.log(Instructor);
+
+// Json structure
+
+// {
+//   "name": "John",
+//   "courseName": "Javascript",
+//   "price": "Free"
+// }
